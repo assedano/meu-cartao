@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Meu Cartão</title>
+</head>
+
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/Minha-foto-perfil.png" alt="foto de perfil" height="96" width="96">
+            <h1 class="nome">Anderson Sedano</h1>
+            <h2 class="cargo">Desenvolvedor Front-end Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Anderson Sedano, seja bem-vindo(a)!</p>
+
+                        <p>Sou advogado em transição de carreira para o setor de tecnologia, buscando oportunidades na
+                            área de desenvolvimento e web.
+                            Ao decorrer de minha trajetória venho buscando me especializar em cursos para compor meus
+                            conhecimentos nesse novo âmbito que venho buscando.
+                            Estuando e praticando <span>HTML</span>, <span>CSS</span> e <span>JavaScript</span>. Nas
+                            horas vagas gosto de jogar MMORPG, ver
+                            séries e animes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+
+                    <ul class="redes-sociais">
+                     
+                        <li>
+                            <a href="https://www.linkedin.com/in/anderson-sedano-16b6b8138/" target="_blank" class="linkedin">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/assedano" target="_blank" class="github">Github</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
